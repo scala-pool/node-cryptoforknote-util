@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "bindings": "*",
+    "bitcoinjs-lib": "^6.0.1",
+    "merkle-lib": "^2.0.10",
     "nan": "^2.0.0",
-    "sha3": "^2.1.4"
+    "sha3": "^2.1.4",
+    "varuint-bitcoin": "^1.1.2"
   },
   "keywords": [
     "cryptonight",
