@@ -7,7 +7,7 @@ const varuint = require('varuint-bitcoin');
 const crypto  = require('crypto');
 const fastMerkleRoot = require('merkle-lib/fastRoot');
 
-const rtm = require('cryptoforknote-util/coins/rtm');
+const rtm = require('./coins/rtm');
 
 function scriptCompile(addrHash) {
   return bitcoin.script.compile([
