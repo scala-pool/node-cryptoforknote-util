@@ -1,7 +1,6 @@
 {
   "name": "cryptoforknote-util",
   "version": "8.1.0",
-  "main": "cryptoforknote-util",
   "author": {
     "name": "LucasJones",
     "email": "lucasjonesdev@hotmail.co.uk"
@@ -12,7 +11,8 @@
   },
   "dependencies": {
     "bindings": "*",
-    "nan": "^2.0.0"
+    "nan": "^2.0.0",
+    "sha3": "^2.1.4"
   },
   "keywords": [
     "cryptonight",
